@@ -1,7 +1,7 @@
 {
-	"name": "alertmaps",
-	"version": "1.0.0",
-	"description": "Kyiv Lime Alert",
+	"name": "kyivlimeam",
+	"version": "1.0.1",
+	"description": "Мапа повітряних тривог від Київ Лайм",
 	"main": "node.js",
 	"scripts": {
 		"style": "node-sass src/scss/main.scss src/style.min.css --output-style compressed",
@@ -13,6 +13,7 @@
 		"kyiv",
 		"lime",
 		"alert",
+		"map",
 		"telegram"
 	],
 	"author": "GORAlex Comp",
@@ -23,7 +24,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/GORAlexComp/KyivLimeAlerts.git",
+		"url": "https://github.com/GORAlexComp/KyivLimeAM.git",
 		"directory": "/"
 	},
 	"homepage": "https://map.kyivlime.pp.ua"
