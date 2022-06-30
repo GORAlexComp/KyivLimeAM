@@ -1,5 +1,5 @@
 const update = () => {
-	const url='https://sirens.in.ua/api/v1/'
+	const url = 'https://sirens.in.ua/api/v1/'
 	// const url = 'https://map.kyivlime.pp.ua/src/city.json'
 	const map = document.getElementById("map").contentDocument
 
