@@ -1,0 +1,30 @@
+{
+	"name": "alertmaps",
+	"version": "1.0.0",
+	"description": "Kyiv Lime Alert",
+	"main": "node.js",
+	"scripts": {
+		"style": "node-sass src/scss/main.scss src/style.min.css --output-style compressed",
+		"style:watch": "node-sass -w src/scss/main.scss src/style.min.css --output-style compressed",
+		"js": "uglifyjs src/js/map.js src/js/theme.js -o src/index.min.js -c -m",
+		"prod": "sudo npm run style && sudo npm run js"
+	},
+	"keywords": [
+		"kyiv",
+		"lime",
+		"alert",
+		"telegram"
+	],
+	"author": "GORAlex Comp",
+	"license": "ISC",
+	"dependencies": {
+		"node-sass": "^7.0.1",
+		"uglify-js": "^3.16.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GORAlexComp/KyivLimeAlerts.git",
+		"directory": "/"
+	},
+	"homepage": "https://map.kyivlime.pp.ua"
+}
