@@ -1,10 +1,10 @@
 version: 2
-	updates:
-		- package-ecosystem: "npm"
-		  directory: "/"
-		  schedule:
-		  interval: "daily"
-		  versioning-strategy: lockfile-only
-		  commit-message:
-			  prefix: "npm"
-			  include: "scope"
+  updates:
+    - package-ecosystem: "npm"
+      directory: "/"
+      schedule:
+      interval: "daily"
+      versioning-strategy: lockfile-only
+      commit-message:
+        prefix: "npm"
+        include: "scope"
